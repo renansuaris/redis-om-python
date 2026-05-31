@@ -1,0 +1,163 @@
+[
+  {
+    "arquivo": "aredis_om\\model\\model.py",
+    "convention": 133,
+    "total": 277,
+    "warning": 57,
+    "error": 7,
+    "refactor": 80
+  },
+  {
+    "arquivo": "aredis_om\\model\\migrations\\data\\builtin\\datetime_migration.py",
+    "convention": 4,
+    "total": 97,
+    "warning": 47,
+    "refactor": 15,
+    "error": 31
+  },
+  {
+    "arquivo": "aredis_om\\model\\cli\\migrate_data.py",
+    "convention": 21,
+    "total": 38,
+    "warning": 10,
+    "refactor": 6,
+    "error": 1
+  },
+  {
+    "arquivo": "aredis_om\\model\\migrations\\schema\\legacy_migrator.py",
+    "warning": 5,
+    "total": 19,
+    "convention": 13,
+    "refactor": 1
+  },
+  {
+    "arquivo": "aredis_om\\model\\migrations\\utils\\__init__.py",
+    "refactor": 18,
+    "total": 18
+  },
+  {
+    "arquivo": "aredis_om\\model\\encoders.py",
+    "convention": 3,
+    "total": 15,
+    "warning": 5,
+    "refactor": 7
+  },
+  {
+    "arquivo": "aredis_om\\model\\migrations\\data\\migrator.py",
+    "convention": 3,
+    "total": 15,
+    "warning": 7,
+    "error": 1,
+    "refactor": 4
+  },
+  {
+    "arquivo": "aredis_om\\model\\migrations\\schema\\migrator.py",
+    "convention": 8,
+    "total": 15,
+    "warning": 5,
+    "refactor": 2
+  },
+  {
+    "arquivo": "aredis_om\\model\\cli\\index.py",
+    "convention": 9,
+    "total": 13,
+    "warning": 3,
+    "refactor": 1
+  },
+  {
+    "arquivo": "aredis_om\\model\\render_tree.py",
+    "refactor": 3,
+    "total": 9,
+    "convention": 5,
+    "warning": 1
+  },
+  {
+    "arquivo": "aredis_om\\model\\cli\\migrate.py",
+    "convention": 6,
+    "total": 9,
+    "warning": 3
+  },
+  {
+    "arquivo": "aredis_om\\model\\query_resolver.py",
+    "warning": 2,
+    "total": 7,
+    "convention": 4,
+    "refactor": 1
+  },
+  {
+    "arquivo": "aredis_om\\redisvl.py",
+    "refactor": 4,
+    "total": 6,
+    "convention": 1,
+    "warning": 1
+  },
+  {
+    "arquivo": "aredis_om\\checks.py",
+    "convention": 4,
+    "total": 4
+  },
+  {
+    "arquivo": "aredis_om\\model\\token_escaper.py",
+    "convention": 3,
+    "total": 4,
+    "refactor": 1
+  },
+  {
+    "arquivo": "aredis_om\\model\\migrations\\data\\base.py",
+    "warning": 4,
+    "total": 4
+  },
+  {
+    "arquivo": "aredis_om\\util.py",
+    "convention": 3,
+    "total": 3
+  },
+  {
+    "arquivo": "aredis_om\\async_redis.py",
+    "convention": 1,
+    "total": 2,
+    "warning": 1
+  },
+  {
+    "arquivo": "aredis_om\\connections.py",
+    "convention": 2,
+    "total": 2
+  },
+  {
+    "arquivo": "aredis_om\\settings.py",
+    "convention": 2,
+    "total": 2
+  },
+  {
+    "arquivo": "aredis_om\\sync_redis.py",
+    "convention": 1,
+    "total": 2,
+    "warning": 1
+  },
+  {
+    "arquivo": "aredis_om\\model\\types.py",
+    "convention": 1,
+    "total": 2,
+    "refactor": 1
+  },
+  {
+    "arquivo": "aredis_om\\__init__.py",
+    "convention": 1,
+    "total": 1
+  },
+  {
+    "arquivo": "aredis_om\\cli\\main.py",
+    "warning": 1,
+    "total": 1
+  },
+  {
+    "arquivo": "aredis_om\\model\\__init__.py",
+    "convention": 1,
+    "total": 1
+  },
+  {
+    "arquivo": "aredis_om\\model\\migrations\\schema\\base.py",
+    "warning": 1,
+    "total": 1
+  }
+]

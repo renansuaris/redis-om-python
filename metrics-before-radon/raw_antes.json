@@ -1,0 +1,290 @@
+{
+  "aredis_om\\async_redis.py": {
+    "loc": 1,
+    "lloc": 1,
+    "sloc": 1,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "aredis_om\\checks.py": {
+    "loc": 27,
+    "lloc": 20,
+    "sloc": 20,
+    "comments": 0,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 0
+  },
+  "aredis_om\\connections.py": {
+    "loc": 20,
+    "lloc": 10,
+    "sloc": 10,
+    "comments": 3,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 3
+  },
+  "aredis_om\\redisvl.py": {
+    "loc": 237,
+    "lloc": 101,
+    "sloc": 121,
+    "comments": 13,
+    "multi": 61,
+    "blank": 41,
+    "single_comments": 14
+  },
+  "aredis_om\\settings.py": {
+    "loc": 6,
+    "lloc": 3,
+    "sloc": 3,
+    "comments": 1,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 1
+  },
+  "aredis_om\\sync_redis.py": {
+    "loc": 1,
+    "lloc": 1,
+    "sloc": 1,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "aredis_om\\util.py": {
+    "loc": 39,
+    "lloc": 25,
+    "sloc": 23,
+    "comments": 0,
+    "multi": 3,
+    "blank": 12,
+    "single_comments": 1
+  },
+  "aredis_om\\__init__.py": {
+    "loc": 49,
+    "lloc": 9,
+    "sloc": 45,
+    "comments": 3,
+    "multi": 0,
+    "blank": 3,
+    "single_comments": 1
+  },
+  "aredis_om\\cli\\main.py": {
+    "loc": 26,
+    "lloc": 15,
+    "sloc": 13,
+    "comments": 1,
+    "multi": 3,
+    "blank": 8,
+    "single_comments": 2
+  },
+  "aredis_om\\cli\\__init__.py": {
+    "loc": 1,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 1,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 1
+  },
+  "aredis_om\\model\\encoders.py": {
+    "loc": 194,
+    "lloc": 83,
+    "sloc": 150,
+    "comments": 4,
+    "multi": 20,
+    "blank": 23,
+    "single_comments": 1
+  },
+  "aredis_om\\model\\model.py": {
+    "loc": 3887,
+    "lloc": 2138,
+    "sloc": 2682,
+    "comments": 435,
+    "multi": 224,
+    "blank": 547,
+    "single_comments": 434
+  },
+  "aredis_om\\model\\query_resolver.py": {
+    "loc": 104,
+    "lloc": 29,
+    "sloc": 23,
+    "comments": 4,
+    "multi": 43,
+    "blank": 33,
+    "single_comments": 5
+  },
+  "aredis_om\\model\\render_tree.py": {
+    "loc": 77,
+    "lloc": 41,
+    "sloc": 56,
+    "comments": 2,
+    "multi": 10,
+    "blank": 11,
+    "single_comments": 0
+  },
+  "aredis_om\\model\\token_escaper.py": {
+    "loc": 25,
+    "lloc": 15,
+    "sloc": 14,
+    "comments": 2,
+    "multi": 3,
+    "blank": 6,
+    "single_comments": 2
+  },
+  "aredis_om\\model\\types.py": {
+    "loc": 138,
+    "lloc": 52,
+    "sloc": 60,
+    "comments": 6,
+    "multi": 43,
+    "blank": 30,
+    "single_comments": 5
+  },
+  "aredis_om\\model\\__init__.py": {
+    "loc": 11,
+    "lloc": 2,
+    "sloc": 11,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "aredis_om\\model\\cli\\index.py": {
+    "loc": 174,
+    "lloc": 109,
+    "sloc": 105,
+    "comments": 4,
+    "multi": 22,
+    "blank": 44,
+    "single_comments": 3
+  },
+  "aredis_om\\model\\cli\\migrate.py": {
+    "loc": 336,
+    "lloc": 197,
+    "sloc": 260,
+    "comments": 4,
+    "multi": 8,
+    "blank": 57,
+    "single_comments": 11
+  },
+  "aredis_om\\model\\cli\\migrate_data.py": {
+    "loc": 570,
+    "lloc": 328,
+    "sloc": 430,
+    "comments": 21,
+    "multi": 5,
+    "blank": 105,
+    "single_comments": 30
+  },
+  "aredis_om\\model\\cli\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "aredis_om\\model\\migrations\\__init__.py": {
+    "loc": 35,
+    "lloc": 4,
+    "sloc": 23,
+    "comments": 3,
+    "multi": 7,
+    "blank": 5,
+    "single_comments": 0
+  },
+  "aredis_om\\model\\migrations\\data\\base.py": {
+    "loc": 146,
+    "lloc": 86,
+    "sloc": 89,
+    "comments": 2,
+    "multi": 19,
+    "blank": 30,
+    "single_comments": 8
+  },
+  "aredis_om\\model\\migrations\\data\\migrator.py": {
+    "loc": 538,
+    "lloc": 277,
+    "sloc": 344,
+    "comments": 28,
+    "multi": 63,
+    "blank": 104,
+    "single_comments": 27
+  },
+  "aredis_om\\model\\migrations\\data\\__init__.py": {
+    "loc": 12,
+    "lloc": 4,
+    "sloc": 3,
+    "comments": 0,
+    "multi": 5,
+    "blank": 4,
+    "single_comments": 0
+  },
+  "aredis_om\\model\\migrations\\data\\builtin\\datetime_migration.py": {
+    "loc": 943,
+    "lloc": 499,
+    "sloc": 638,
+    "comments": 86,
+    "multi": 40,
+    "blank": 165,
+    "single_comments": 100
+  },
+  "aredis_om\\model\\migrations\\data\\builtin\\__init__.py": {
+    "loc": 15,
+    "lloc": 3,
+    "sloc": 6,
+    "comments": 0,
+    "multi": 5,
+    "blank": 4,
+    "single_comments": 0
+  },
+  "aredis_om\\model\\migrations\\schema\\base.py": {
+    "loc": 43,
+    "lloc": 23,
+    "sloc": 20,
+    "comments": 0,
+    "multi": 8,
+    "blank": 12,
+    "single_comments": 3
+  },
+  "aredis_om\\model\\migrations\\schema\\legacy_migrator.py": {
+    "loc": 251,
+    "lloc": 132,
+    "sloc": 165,
+    "comments": 15,
+    "multi": 24,
+    "blank": 49,
+    "single_comments": 13
+  },
+  "aredis_om\\model\\migrations\\schema\\migrator.py": {
+    "loc": 342,
+    "lloc": 198,
+    "sloc": 271,
+    "comments": 12,
+    "multi": 21,
+    "blank": 41,
+    "single_comments": 9
+  },
+  "aredis_om\\model\\migrations\\schema\\__init__.py": {
+    "loc": 27,
+    "lloc": 5,
+    "sloc": 15,
+    "comments": 3,
+    "multi": 7,
+    "blank": 5,
+    "single_comments": 0
+  },
+  "aredis_om\\model\\migrations\\utils\\__init__.py": {
+    "loc": 9,
+    "lloc": 2,
+    "sloc": 1,
+    "comments": 1,
+    "multi": 5,
+    "blank": 2,
+    "single_comments": 1
+  }
+}

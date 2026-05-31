@@ -1,0 +1,6494 @@
+{
+  "aredis_om\\checks.py": [
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 21,
+      "endline": 27,
+      "name": "has_redisearch",
+      "complexity": 3,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 13,
+      "endline": 17,
+      "name": "has_redis_json",
+      "complexity": 2,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 7,
+      "endline": 9,
+      "name": "check_for_command",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    }
+  ],
+  "aredis_om\\connections.py": [
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 9,
+      "endline": 20,
+      "name": "get_redis_connection",
+      "complexity": 3,
+      "col_offset": 0,
+      "closures": []
+    }
+  ],
+  "aredis_om\\redisvl.py": [
+    {
+      "type": "function",
+      "rank": "C",
+      "lineno": 46,
+      "endline": 115,
+      "name": "_get_field_type",
+      "complexity": 19,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "C",
+      "lineno": 118,
+      "endline": 199,
+      "name": "to_redisvl_schema",
+      "complexity": 12,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 202,
+      "endline": 237,
+      "name": "get_redisvl_index",
+      "complexity": 2,
+      "col_offset": 0,
+      "closures": []
+    }
+  ],
+  "aredis_om\\settings.py": [
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 4,
+      "endline": 6,
+      "name": "get_root_migrations_dir",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    }
+  ],
+  "aredis_om\\util.py": [
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 27,
+      "endline": 39,
+      "name": "has_numeric_inner_type",
+      "complexity": 3,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 20,
+      "endline": 24,
+      "name": "is_numeric_type",
+      "complexity": 2,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 7,
+      "endline": 12,
+      "name": "is_async_mode",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "A",
+          "lineno": 8,
+          "endline": 10,
+          "name": "f",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    }
+  ],
+  "aredis_om\\cli\\main.py": [
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 14,
+      "endline": 16,
+      "name": "om",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\encoders.py": [
+    {
+      "type": "function",
+      "rank": "E",
+      "lineno": 68,
+      "endline": 193,
+      "name": "jsonable_encoder",
+      "complexity": 36,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 54,
+      "endline": 62,
+      "name": "generate_encoders_by_class_tuples",
+      "complexity": 2,
+      "col_offset": 0,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\model.py": [
+    {
+      "type": "class",
+      "rank": "F",
+      "lineno": 2406,
+      "endline": 2623,
+      "name": "ModelMeta",
+      "complexity": 52,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "F",
+          "lineno": 2412,
+          "endline": 2623,
+          "classname": "ModelMeta",
+          "name": "__new__",
+          "complexity": 51,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "F",
+      "lineno": 2412,
+      "endline": 2623,
+      "classname": "ModelMeta",
+      "name": "__new__",
+      "complexity": 51,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "F",
+      "lineno": 3664,
+      "endline": 3870,
+      "classname": "JsonModel",
+      "name": "schema_for_type",
+      "complexity": 44,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "E",
+      "lineno": 1545,
+      "endline": 1712,
+      "classname": "FindQuery",
+      "name": "resolve_value",
+      "complexity": 40,
+      "col_offset": 4,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "A",
+          "lineno": 1576,
+          "endline": 1590,
+          "name": "convert_numeric_value",
+          "complexity": 5,
+          "col_offset": 12,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "E",
+      "lineno": 128,
+      "endline": 228,
+      "name": "convert_timestamp_to_datetime",
+      "complexity": 32,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "E",
+      "lineno": 250,
+      "endline": 341,
+      "name": "convert_base64_to_bytes",
+      "complexity": 32,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "D",
+      "lineno": 1838,
+      "endline": 1949,
+      "classname": "FindQuery",
+      "name": "execute",
+      "complexity": 30,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 1729,
+      "endline": 1836,
+      "classname": "FindQuery",
+      "name": "_resolve_redisearch_query",
+      "complexity": 18,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 2991,
+      "endline": 3054,
+      "classname": "HashModel",
+      "name": "__init_subclass__",
+      "complexity": 18,
+      "col_offset": 4,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "B",
+          "lineno": 2997,
+          "endline": 3009,
+          "name": "_has_vector_options",
+          "complexity": 6,
+          "col_offset": 8,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 1276,
+      "endline": 1342,
+      "classname": "FindQuery",
+      "name": "_parse_json_path_projection_as_dict",
+      "complexity": 17,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 3604,
+      "endline": 3661,
+      "classname": "JsonModel",
+      "name": "schema_for_fields",
+      "complexity": 16,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 1045,
+      "endline": 1113,
+      "classname": "FindQuery",
+      "name": "_validate_deep_field_path",
+      "complexity": 15,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 3330,
+      "endline": 3390,
+      "classname": "HashModel",
+      "name": "schema_for_type",
+      "complexity": 15,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 3093,
+      "endline": 3205,
+      "classname": "HashModel",
+      "name": "save",
+      "complexity": 13,
+      "col_offset": 4,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "C",
+          "lineno": 3151,
+          "endline": 3191,
+          "name": "_do_save",
+          "complexity": 20,
+          "col_offset": 8,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 3283,
+      "endline": 3327,
+      "classname": "HashModel",
+      "name": "schema_for_fields",
+      "complexity": 13,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 1147,
+      "endline": 1210,
+      "classname": "FindQuery",
+      "name": "_convert_projected_fields",
+      "complexity": 12,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 1228,
+      "endline": 1261,
+      "classname": "FindQuery",
+      "name": "_has_complex_projected_fields",
+      "complexity": 11,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 2816,
+      "endline": 2846,
+      "classname": "RedisModel",
+      "name": "validate_primary_key",
+      "complexity": 11,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 406,
+      "endline": 437,
+      "name": "convert_empty_strings_to_none",
+      "complexity": 10,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 447,
+      "endline": 487,
+      "classname": "PartialModel",
+      "name": "__init__",
+      "complexity": 10,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 1465,
+      "endline": 1524,
+      "classname": "FindQuery",
+      "name": "resolve_field_type",
+      "complexity": 10,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 489,
+      "endline": 517,
+      "classname": "PartialModel",
+      "name": "__getattribute__",
+      "complexity": 9,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 3488,
+      "endline": 3870,
+      "name": "JsonModel",
+      "complexity": 9,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3489,
+          "endline": 3491,
+          "classname": "JsonModel",
+          "name": "__init_subclass__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3493,
+          "endline": 3499,
+          "classname": "JsonModel",
+          "name": "__init__",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3501,
+          "endline": 3545,
+          "classname": "JsonModel",
+          "name": "save",
+          "complexity": 5,
+          "col_offset": 4,
+          "closures": [
+            {
+              "type": "function",
+              "rank": "A",
+              "lineno": 3525,
+              "endline": 3531,
+              "name": "_do_save",
+              "complexity": 2,
+              "col_offset": 8,
+              "closures": []
+            }
+          ]
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3548,
+          "endline": 3558,
+          "classname": "JsonModel",
+          "name": "all_pks",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3561,
+          "endline": 3583,
+          "classname": "JsonModel",
+          "name": "update",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3586,
+          "endline": 3594,
+          "classname": "JsonModel",
+          "name": "get",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3597,
+          "endline": 3601,
+          "classname": "JsonModel",
+          "name": "redisearch_schema",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 3604,
+          "endline": 3661,
+          "classname": "JsonModel",
+          "name": "schema_for_fields",
+          "complexity": 16,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "F",
+          "lineno": 3664,
+          "endline": 3870,
+          "classname": "JsonModel",
+          "name": "schema_for_type",
+          "complexity": 44,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 344,
+      "endline": 371,
+      "name": "convert_vector_to_bytes",
+      "complexity": 8,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 374,
+      "endline": 403,
+      "name": "convert_bytes_to_vector",
+      "complexity": 8,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 657,
+      "endline": 675,
+      "name": "validate_model_fields",
+      "complexity": 8,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 3057,
+      "endline": 3091,
+      "classname": "HashModel",
+      "name": "_get_field_expirations",
+      "complexity": 8,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 109,
+      "endline": 125,
+      "name": "convert_datetime_to_timestamp",
+      "complexity": 7,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 440,
+      "endline": 568,
+      "name": "PartialModel",
+      "complexity": 7,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 447,
+          "endline": 487,
+          "classname": "PartialModel",
+          "name": "__init__",
+          "complexity": 10,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 489,
+          "endline": 517,
+          "classname": "PartialModel",
+          "name": "__getattribute__",
+          "complexity": 9,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 519,
+          "endline": 538,
+          "classname": "PartialModel",
+          "name": "__getattr__",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 541,
+          "endline": 552,
+          "classname": "PartialModel",
+          "name": "_extract_nested_value",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 554,
+          "endline": 564,
+          "classname": "PartialModel",
+          "name": "__setattr__",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 566,
+          "endline": 568,
+          "classname": "PartialModel",
+          "name": "__repr__",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 926,
+      "endline": 2119,
+      "name": "FindQuery",
+      "complexity": 7,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 927,
+          "endline": 972,
+          "classname": "FindQuery",
+          "name": "__init__",
+          "complexity": 7,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 974,
+          "endline": 984,
+          "classname": "FindQuery",
+          "name": "dict",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 987,
+          "endline": 990,
+          "classname": "FindQuery",
+          "name": "copy",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 993,
+          "endline": 997,
+          "classname": "FindQuery",
+          "name": "pagination",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1000,
+          "endline": 1009,
+          "classname": "FindQuery",
+          "name": "expression",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1012,
+          "endline": 1031,
+          "classname": "FindQuery",
+          "name": "query",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1033,
+          "endline": 1043,
+          "classname": "FindQuery",
+          "name": "validate_projected_fields",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 1045,
+          "endline": 1113,
+          "classname": "FindQuery",
+          "name": "_validate_deep_field_path",
+          "complexity": 15,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1117,
+          "endline": 1145,
+          "classname": "FindQuery",
+          "name": "_parse_projected_results",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": [
+            {
+              "type": "function",
+              "rank": "A",
+              "lineno": 1120,
+              "endline": 1126,
+              "name": "to_string",
+              "complexity": 3,
+              "col_offset": 8,
+              "closures": []
+            }
+          ]
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 1147,
+          "endline": 1210,
+          "classname": "FindQuery",
+          "name": "_convert_projected_fields",
+          "complexity": 12,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1212,
+          "endline": 1226,
+          "classname": "FindQuery",
+          "name": "_parse_projected_models",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 1228,
+          "endline": 1261,
+          "classname": "FindQuery",
+          "name": "_has_complex_projected_fields",
+          "complexity": 11,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1263,
+          "endline": 1274,
+          "classname": "FindQuery",
+          "name": "_parse_full_document_projection_as_dict",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 1276,
+          "endline": 1342,
+          "classname": "FindQuery",
+          "name": "_parse_json_path_projection_as_dict",
+          "complexity": 17,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 1344,
+          "endline": 1368,
+          "classname": "FindQuery",
+          "name": "_parse_fallback_projection_as_dict",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1370,
+          "endline": 1381,
+          "classname": "FindQuery",
+          "name": "_extract_nested_value",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1383,
+          "endline": 1402,
+          "classname": "FindQuery",
+          "name": "_parse_full_document_projection_as_models",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1404,
+          "endline": 1418,
+          "classname": "FindQuery",
+          "name": "_construct_nested_partial_data",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1420,
+          "endline": 1433,
+          "classname": "FindQuery",
+          "name": "_set_nested_value",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1436,
+          "endline": 1440,
+          "classname": "FindQuery",
+          "name": "query_params",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 1442,
+          "endline": 1462,
+          "classname": "FindQuery",
+          "name": "validate_sort_fields",
+          "complexity": 7,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 1465,
+          "endline": 1524,
+          "classname": "FindQuery",
+          "name": "resolve_field_type",
+          "complexity": 10,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1527,
+          "endline": 1542,
+          "classname": "FindQuery",
+          "name": "expand_tag_value",
+          "complexity": 5,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "E",
+          "lineno": 1545,
+          "endline": 1712,
+          "classname": "FindQuery",
+          "name": "resolve_value",
+          "complexity": 40,
+          "col_offset": 4,
+          "closures": [
+            {
+              "type": "function",
+              "rank": "A",
+              "lineno": 1576,
+              "endline": 1590,
+              "name": "convert_numeric_value",
+              "complexity": 5,
+              "col_offset": 12,
+              "closures": []
+            }
+          ]
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1714,
+          "endline": 1716,
+          "classname": "FindQuery",
+          "name": "resolve_redisearch_pagination",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1718,
+          "endline": 1727,
+          "classname": "FindQuery",
+          "name": "resolve_redisearch_sort_fields",
+          "complexity": 5,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 1729,
+          "endline": 1836,
+          "classname": "FindQuery",
+          "name": "_resolve_redisearch_query",
+          "complexity": 18,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "D",
+          "lineno": 1838,
+          "endline": 1949,
+          "classname": "FindQuery",
+          "name": "execute",
+          "complexity": 30,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1951,
+          "endline": 1953,
+          "classname": "FindQuery",
+          "name": "get_query",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1955,
+          "endline": 1960,
+          "classname": "FindQuery",
+          "name": "first",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1962,
+          "endline": 1965,
+          "classname": "FindQuery",
+          "name": "count",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1967,
+          "endline": 1971,
+          "classname": "FindQuery",
+          "name": "all",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1973,
+          "endline": 1975,
+          "classname": "FindQuery",
+          "name": "page",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1978,
+          "endline": 1981,
+          "classname": "FindQuery",
+          "name": "sort_by",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 1983,
+          "endline": 1999,
+          "classname": "FindQuery",
+          "name": "values",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2001,
+          "endline": 2013,
+          "classname": "FindQuery",
+          "name": "only",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2015,
+          "endline": 2037,
+          "classname": "FindQuery",
+          "name": "update",
+          "complexity": 5,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2039,
+          "endline": 2045,
+          "classname": "FindQuery",
+          "name": "delete",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2047,
+          "endline": 2053,
+          "classname": "FindQuery",
+          "name": "__aiter__",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2055,
+          "endline": 2079,
+          "classname": "FindQuery",
+          "name": "__getitem__",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2081,
+          "endline": 2103,
+          "classname": "FindQuery",
+          "name": "get_item",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2105,
+          "endline": 2119,
+          "classname": "FindQuery",
+          "name": "_has_datetime_fields",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 927,
+      "endline": 972,
+      "classname": "FindQuery",
+      "name": "__init__",
+      "complexity": 7,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 1442,
+      "endline": 1462,
+      "classname": "FindQuery",
+      "name": "validate_sort_fields",
+      "complexity": 7,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 2334,
+      "endline": 2353,
+      "classname": "PrimaryKeyAccessor",
+      "name": "__get__",
+      "complexity": 7,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 2990,
+      "endline": 3485,
+      "name": "HashModel",
+      "complexity": 7,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 2991,
+          "endline": 3054,
+          "classname": "HashModel",
+          "name": "__init_subclass__",
+          "complexity": 18,
+          "col_offset": 4,
+          "closures": [
+            {
+              "type": "function",
+              "rank": "B",
+              "lineno": 2997,
+              "endline": 3009,
+              "name": "_has_vector_options",
+              "complexity": 6,
+              "col_offset": 8,
+              "closures": []
+            }
+          ]
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 3057,
+          "endline": 3091,
+          "classname": "HashModel",
+          "name": "_get_field_expirations",
+          "complexity": 8,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 3093,
+          "endline": 3205,
+          "classname": "HashModel",
+          "name": "save",
+          "complexity": 13,
+          "col_offset": 4,
+          "closures": [
+            {
+              "type": "function",
+              "rank": "C",
+              "lineno": 3151,
+              "endline": 3191,
+              "name": "_do_save",
+              "complexity": 20,
+              "col_offset": 8,
+              "closures": []
+            }
+          ]
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3208,
+          "endline": 3218,
+          "classname": "HashModel",
+          "name": "all_pks",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3222,
+          "endline": 3253,
+          "classname": "HashModel",
+          "name": "get",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3257,
+          "endline": 3267,
+          "classname": "HashModel",
+          "name": "_get_value",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3270,
+          "endline": 3274,
+          "classname": "HashModel",
+          "name": "redisearch_schema",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3276,
+          "endline": 3280,
+          "classname": "HashModel",
+          "name": "update",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 3283,
+          "endline": 3327,
+          "classname": "HashModel",
+          "name": "schema_for_fields",
+          "complexity": 13,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 3330,
+          "endline": 3390,
+          "classname": "HashModel",
+          "name": "schema_for_type",
+          "complexity": 15,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3396,
+          "endline": 3433,
+          "classname": "HashModel",
+          "name": "expire_field",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3435,
+          "endline": 3459,
+          "classname": "HashModel",
+          "name": "field_ttl",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 3461,
+          "endline": 3485,
+          "classname": "HashModel",
+          "name": "persist_field",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 231,
+      "endline": 247,
+      "name": "convert_bytes_to_base64",
+      "complexity": 6,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 649,
+      "endline": 654,
+      "name": "is_supported_container_type",
+      "complexity": 6,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 679,
+      "endline": 690,
+      "name": "decode_redis_value",
+      "complexity": 6,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 2639,
+      "endline": 2655,
+      "name": "should_index_field",
+      "complexity": 6,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 519,
+      "endline": 538,
+      "classname": "PartialModel",
+      "name": "__getattr__",
+      "complexity": 6,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 885,
+      "endline": 909,
+      "classname": "ExpressionProxy",
+      "name": "__getattr__",
+      "complexity": 6,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 1344,
+      "endline": 1368,
+      "classname": "FindQuery",
+      "name": "_parse_fallback_projection_as_dict",
+      "complexity": 6,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 2255,
+      "endline": 2267,
+      "classname": "VectorFieldOptions",
+      "name": "schema",
+      "complexity": 6,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 2324,
+      "endline": 2361,
+      "name": "PrimaryKeyAccessor",
+      "complexity": 6,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 2334,
+          "endline": 2353,
+          "classname": "PrimaryKeyAccessor",
+          "name": "__get__",
+          "complexity": 7,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2355,
+          "endline": 2361,
+          "classname": "PrimaryKeyAccessor",
+          "name": "__set__",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 589,
+      "endline": 599,
+      "name": "get_outer_type",
+      "complexity": 5,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 2626,
+      "endline": 2636,
+      "name": "outer_type_or_annotation",
+      "complexity": 5,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1527,
+      "endline": 1542,
+      "classname": "FindQuery",
+      "name": "expand_tag_value",
+      "complexity": 5,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1718,
+      "endline": 1727,
+      "classname": "FindQuery",
+      "name": "resolve_redisearch_sort_fields",
+      "complexity": 5,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2015,
+      "endline": 2037,
+      "classname": "FindQuery",
+      "name": "update",
+      "complexity": 5,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2872,
+      "endline": 2916,
+      "classname": "RedisModel",
+      "name": "from_redis",
+      "complexity": 5,
+      "col_offset": 4,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "A",
+          "lineno": 2874,
+          "endline": 2880,
+          "name": "to_string",
+          "complexity": 3,
+          "col_offset": 8,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3501,
+      "endline": 3545,
+      "classname": "JsonModel",
+      "name": "save",
+      "complexity": 5,
+      "col_offset": 4,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "A",
+          "lineno": 3525,
+          "endline": 3531,
+          "name": "_do_save",
+          "complexity": 2,
+          "col_offset": 8,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 86,
+      "endline": 106,
+      "name": "supports_hash_field_expiration",
+      "complexity": 4,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 541,
+      "endline": 552,
+      "classname": "PartialModel",
+      "name": "_extract_nested_value",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1012,
+      "endline": 1031,
+      "classname": "FindQuery",
+      "name": "query",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1033,
+      "endline": 1043,
+      "classname": "FindQuery",
+      "name": "validate_projected_fields",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1370,
+      "endline": 1381,
+      "classname": "FindQuery",
+      "name": "_extract_nested_value",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1436,
+      "endline": 1440,
+      "classname": "FindQuery",
+      "name": "query_params",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2047,
+      "endline": 2053,
+      "classname": "FindQuery",
+      "name": "__aiter__",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2055,
+      "endline": 2079,
+      "classname": "FindQuery",
+      "name": "__getitem__",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2105,
+      "endline": 2119,
+      "classname": "FindQuery",
+      "name": "_has_datetime_fields",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2183,
+      "endline": 2267,
+      "name": "VectorFieldOptions",
+      "complexity": 4,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2215,
+          "endline": 2228,
+          "classname": "VectorFieldOptions",
+          "name": "flat",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2232,
+          "endline": 2251,
+          "classname": "VectorFieldOptions",
+          "name": "hnsw",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 2255,
+          "endline": 2267,
+          "classname": "VectorFieldOptions",
+          "name": "schema",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2796,
+      "endline": 2802,
+      "classname": "RedisModel",
+      "name": "validate_pk",
+      "complexity": 4,
+      "col_offset": 8,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2807,
+      "endline": 2813,
+      "classname": "RedisModel",
+      "name": "validate_pk",
+      "complexity": 4,
+      "col_offset": 8,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3561,
+      "endline": 3583,
+      "classname": "JsonModel",
+      "name": "update",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 554,
+      "endline": 564,
+      "classname": "PartialModel",
+      "name": "__setattr__",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 566,
+      "endline": 568,
+      "classname": "PartialModel",
+      "name": "__repr__",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1000,
+      "endline": 1009,
+      "classname": "FindQuery",
+      "name": "expression",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1117,
+      "endline": 1145,
+      "classname": "FindQuery",
+      "name": "_parse_projected_results",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "A",
+          "lineno": 1120,
+          "endline": 1126,
+          "name": "to_string",
+          "complexity": 3,
+          "col_offset": 8,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1263,
+      "endline": 1274,
+      "classname": "FindQuery",
+      "name": "_parse_full_document_projection_as_dict",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1404,
+      "endline": 1418,
+      "classname": "FindQuery",
+      "name": "_construct_nested_partial_data",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1420,
+      "endline": 1433,
+      "classname": "FindQuery",
+      "name": "_set_nested_value",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2039,
+      "endline": 2045,
+      "classname": "FindQuery",
+      "name": "delete",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2081,
+      "endline": 2103,
+      "classname": "FindQuery",
+      "name": "get_item",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2355,
+      "endline": 2361,
+      "classname": "PrimaryKeyAccessor",
+      "name": "__set__",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2658,
+      "endline": 2987,
+      "name": "RedisModel",
+      "complexity": 3,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2676,
+          "endline": 2681,
+          "classname": "RedisModel",
+          "name": "_get_model_fields",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2684,
+          "endline": 2715,
+          "classname": "RedisModel",
+          "name": "check_datetime_schema_compatibility",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2718,
+          "endline": 2726,
+          "classname": "RedisModel",
+          "name": "__init__",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2728,
+          "endline": 2730,
+          "classname": "RedisModel",
+          "name": "__lt__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2732,
+          "endline": 2744,
+          "classname": "RedisModel",
+          "name": "key",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2747,
+          "endline": 2748,
+          "classname": "RedisModel",
+          "name": "_delete",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2751,
+          "endline": 2755,
+          "classname": "RedisModel",
+          "name": "delete",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2758,
+          "endline": 2759,
+          "classname": "RedisModel",
+          "name": "get",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2761,
+          "endline": 2763,
+          "classname": "RedisModel",
+          "name": "update",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2765,
+          "endline": 2785,
+          "classname": "RedisModel",
+          "name": "save",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2787,
+          "endline": 2791,
+          "classname": "RedisModel",
+          "name": "expire",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2796,
+          "endline": 2802,
+          "classname": "RedisModel",
+          "name": "validate_pk",
+          "complexity": 4,
+          "col_offset": 8,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2807,
+          "endline": 2813,
+          "classname": "RedisModel",
+          "name": "validate_pk",
+          "complexity": 4,
+          "col_offset": 8,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 2816,
+          "endline": 2846,
+          "classname": "RedisModel",
+          "name": "validate_primary_key",
+          "complexity": 11,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2849,
+          "endline": 2852,
+          "classname": "RedisModel",
+          "name": "make_key",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2855,
+          "endline": 2857,
+          "classname": "RedisModel",
+          "name": "make_primary_key",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2860,
+          "endline": 2861,
+          "classname": "RedisModel",
+          "name": "db",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2864,
+          "endline": 2869,
+          "classname": "RedisModel",
+          "name": "find",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2872,
+          "endline": 2916,
+          "classname": "RedisModel",
+          "name": "from_redis",
+          "complexity": 5,
+          "col_offset": 4,
+          "closures": [
+            {
+              "type": "function",
+              "rank": "A",
+              "lineno": 2874,
+              "endline": 2880,
+              "name": "to_string",
+              "complexity": 3,
+              "col_offset": 8,
+              "closures": []
+            }
+          ]
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2919,
+          "endline": 2927,
+          "classname": "RedisModel",
+          "name": "get_annotations",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2930,
+          "endline": 2948,
+          "classname": "RedisModel",
+          "name": "add",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2951,
+          "endline": 2957,
+          "classname": "RedisModel",
+          "name": "_get_db",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2960,
+          "endline": 2971,
+          "classname": "RedisModel",
+          "name": "delete_many",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2974,
+          "endline": 2975,
+          "classname": "RedisModel",
+          "name": "redisearch_schema",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2977,
+          "endline": 2987,
+          "classname": "RedisModel",
+          "name": "check",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2684,
+      "endline": 2715,
+      "classname": "RedisModel",
+      "name": "check_datetime_schema_compatibility",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2718,
+      "endline": 2726,
+      "classname": "RedisModel",
+      "name": "__init__",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2732,
+      "endline": 2744,
+      "classname": "RedisModel",
+      "name": "key",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2919,
+      "endline": 2927,
+      "classname": "RedisModel",
+      "name": "get_annotations",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2930,
+      "endline": 2948,
+      "classname": "RedisModel",
+      "name": "add",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2951,
+      "endline": 2957,
+      "classname": "RedisModel",
+      "name": "_get_db",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2960,
+      "endline": 2971,
+      "classname": "RedisModel",
+      "name": "delete_many",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2977,
+      "endline": 2987,
+      "classname": "RedisModel",
+      "name": "check",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3208,
+      "endline": 3218,
+      "classname": "HashModel",
+      "name": "all_pks",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3222,
+      "endline": 3253,
+      "classname": "HashModel",
+      "name": "get",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3396,
+      "endline": 3433,
+      "classname": "HashModel",
+      "name": "expire_field",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3435,
+      "endline": 3459,
+      "classname": "HashModel",
+      "name": "field_ttl",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3461,
+      "endline": 3485,
+      "classname": "HashModel",
+      "name": "persist_field",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3548,
+      "endline": 3558,
+      "classname": "JsonModel",
+      "name": "all_pks",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 694,
+      "endline": 698,
+      "name": "remove_prefix",
+      "complexity": 2,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 705,
+      "endline": 714,
+      "name": "verify_pipeline_response",
+      "complexity": 2,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 614,
+      "endline": 635,
+      "name": "Operators",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 634,
+          "endline": 635,
+          "classname": "Operators",
+          "name": "__str__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 719,
+      "endline": 764,
+      "name": "NegatedExpression",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 730,
+          "endline": 731,
+          "classname": "NegatedExpression",
+          "name": "__invert__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 733,
+          "endline": 735,
+          "classname": "NegatedExpression",
+          "name": "__and__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 738,
+          "endline": 740,
+          "classname": "NegatedExpression",
+          "name": "__or__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 744,
+          "endline": 745,
+          "classname": "NegatedExpression",
+          "name": "left",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 748,
+          "endline": 749,
+          "classname": "NegatedExpression",
+          "name": "right",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 752,
+          "endline": 753,
+          "classname": "NegatedExpression",
+          "name": "op",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 756,
+          "endline": 760,
+          "classname": "NegatedExpression",
+          "name": "name",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 763,
+          "endline": 764,
+          "classname": "NegatedExpression",
+          "name": "tree",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 756,
+      "endline": 760,
+      "classname": "NegatedExpression",
+      "name": "name",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 768,
+      "endline": 791,
+      "name": "Expression",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 774,
+          "endline": 775,
+          "classname": "Expression",
+          "name": "__invert__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 777,
+          "endline": 779,
+          "classname": "Expression",
+          "name": "__and__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 782,
+          "endline": 783,
+          "classname": "Expression",
+          "name": "__or__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 786,
+          "endline": 787,
+          "classname": "Expression",
+          "name": "name",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 790,
+          "endline": 791,
+          "classname": "Expression",
+          "name": "tree",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 795,
+      "endline": 814,
+      "name": "KNNExpression",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 801,
+          "endline": 802,
+          "classname": "KNNExpression",
+          "name": "__str__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 805,
+          "endline": 806,
+          "classname": "KNNExpression",
+          "name": "query_params",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 809,
+          "endline": 810,
+          "classname": "KNNExpression",
+          "name": "score_field_name",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 813,
+          "endline": 814,
+          "classname": "KNNExpression",
+          "name": "vector_field_name",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 820,
+      "endline": 909,
+      "name": "ExpressionProxy",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 821,
+          "endline": 823,
+          "classname": "ExpressionProxy",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 825,
+          "endline": 827,
+          "classname": "ExpressionProxy",
+          "name": "__eq__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 830,
+          "endline": 832,
+          "classname": "ExpressionProxy",
+          "name": "__ne__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 835,
+          "endline": 837,
+          "classname": "ExpressionProxy",
+          "name": "__lt__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 840,
+          "endline": 842,
+          "classname": "ExpressionProxy",
+          "name": "__le__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 845,
+          "endline": 847,
+          "classname": "ExpressionProxy",
+          "name": "__gt__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 850,
+          "endline": 852,
+          "classname": "ExpressionProxy",
+          "name": "__ge__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 855,
+          "endline": 857,
+          "classname": "ExpressionProxy",
+          "name": "__mod__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 860,
+          "endline": 862,
+          "classname": "ExpressionProxy",
+          "name": "__lshift__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 865,
+          "endline": 867,
+          "classname": "ExpressionProxy",
+          "name": "__rshift__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 870,
+          "endline": 872,
+          "classname": "ExpressionProxy",
+          "name": "startswith",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 875,
+          "endline": 877,
+          "classname": "ExpressionProxy",
+          "name": "endswith",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 880,
+          "endline": 882,
+          "classname": "ExpressionProxy",
+          "name": "contains",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 885,
+          "endline": 909,
+          "classname": "ExpressionProxy",
+          "name": "__getattr__",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 993,
+      "endline": 997,
+      "classname": "FindQuery",
+      "name": "pagination",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1212,
+      "endline": 1226,
+      "classname": "FindQuery",
+      "name": "_parse_projected_models",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1383,
+      "endline": 1402,
+      "classname": "FindQuery",
+      "name": "_parse_full_document_projection_as_models",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1955,
+      "endline": 1960,
+      "classname": "FindQuery",
+      "name": "first",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1967,
+      "endline": 1971,
+      "classname": "FindQuery",
+      "name": "all",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1978,
+      "endline": 1981,
+      "classname": "FindQuery",
+      "name": "sort_by",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1983,
+      "endline": 1999,
+      "classname": "FindQuery",
+      "name": "values",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2001,
+      "endline": 2013,
+      "classname": "FindQuery",
+      "name": "only",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2122,
+      "endline": 2124,
+      "name": "PrimaryKeyCreator",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2123,
+          "endline": 2124,
+          "classname": "PrimaryKeyCreator",
+          "name": "create_pk",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2127,
+      "endline": 2135,
+      "name": "UlidPrimaryKey",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2134,
+          "endline": 2135,
+          "classname": "UlidPrimaryKey",
+          "name": "create_pk",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2148,
+      "endline": 2168,
+      "name": "FieldInfo",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2151,
+          "endline": 2168,
+          "classname": "FieldInfo",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2171,
+      "endline": 2179,
+      "name": "RelationshipInfo",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 2172,
+          "endline": 2179,
+          "classname": "RelationshipInfo",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2676,
+      "endline": 2681,
+      "classname": "RedisModel",
+      "name": "_get_model_fields",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3257,
+      "endline": 3267,
+      "classname": "HashModel",
+      "name": "_get_value",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3276,
+      "endline": 3280,
+      "classname": "HashModel",
+      "name": "update",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3493,
+      "endline": 3499,
+      "classname": "JsonModel",
+      "name": "__init__",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3586,
+      "endline": 3594,
+      "classname": "JsonModel",
+      "name": "get",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 641,
+      "endline": 646,
+      "name": "embedded",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 2138,
+      "endline": 2145,
+      "name": "__dataclass_transform__",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 2270,
+      "endline": 2315,
+      "name": "Field",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 602,
+      "endline": 603,
+      "name": "RedisModelError",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 606,
+      "endline": 607,
+      "name": "QuerySyntaxError",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 610,
+      "endline": 611,
+      "name": "NotFoundError",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 634,
+      "endline": 635,
+      "classname": "Operators",
+      "name": "__str__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 701,
+      "endline": 702,
+      "name": "PipelineError",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 730,
+      "endline": 731,
+      "classname": "NegatedExpression",
+      "name": "__invert__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 733,
+      "endline": 735,
+      "classname": "NegatedExpression",
+      "name": "__and__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 738,
+      "endline": 740,
+      "classname": "NegatedExpression",
+      "name": "__or__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 744,
+      "endline": 745,
+      "classname": "NegatedExpression",
+      "name": "left",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 748,
+      "endline": 749,
+      "classname": "NegatedExpression",
+      "name": "right",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 752,
+      "endline": 753,
+      "classname": "NegatedExpression",
+      "name": "op",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 763,
+      "endline": 764,
+      "classname": "NegatedExpression",
+      "name": "tree",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 774,
+      "endline": 775,
+      "classname": "Expression",
+      "name": "__invert__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 777,
+      "endline": 779,
+      "classname": "Expression",
+      "name": "__and__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 782,
+      "endline": 783,
+      "classname": "Expression",
+      "name": "__or__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 786,
+      "endline": 787,
+      "classname": "Expression",
+      "name": "name",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 790,
+      "endline": 791,
+      "classname": "Expression",
+      "name": "tree",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 801,
+      "endline": 802,
+      "classname": "KNNExpression",
+      "name": "__str__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 805,
+      "endline": 806,
+      "classname": "KNNExpression",
+      "name": "query_params",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 809,
+      "endline": 810,
+      "classname": "KNNExpression",
+      "name": "score_field_name",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 813,
+      "endline": 814,
+      "classname": "KNNExpression",
+      "name": "vector_field_name",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 821,
+      "endline": 823,
+      "classname": "ExpressionProxy",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 825,
+      "endline": 827,
+      "classname": "ExpressionProxy",
+      "name": "__eq__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 830,
+      "endline": 832,
+      "classname": "ExpressionProxy",
+      "name": "__ne__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 835,
+      "endline": 837,
+      "classname": "ExpressionProxy",
+      "name": "__lt__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 840,
+      "endline": 842,
+      "classname": "ExpressionProxy",
+      "name": "__le__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 845,
+      "endline": 847,
+      "classname": "ExpressionProxy",
+      "name": "__gt__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 850,
+      "endline": 852,
+      "classname": "ExpressionProxy",
+      "name": "__ge__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 855,
+      "endline": 857,
+      "classname": "ExpressionProxy",
+      "name": "__mod__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 860,
+      "endline": 862,
+      "classname": "ExpressionProxy",
+      "name": "__lshift__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 865,
+      "endline": 867,
+      "classname": "ExpressionProxy",
+      "name": "__rshift__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 870,
+      "endline": 872,
+      "classname": "ExpressionProxy",
+      "name": "startswith",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 875,
+      "endline": 877,
+      "classname": "ExpressionProxy",
+      "name": "endswith",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 880,
+      "endline": 882,
+      "classname": "ExpressionProxy",
+      "name": "contains",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 912,
+      "endline": 913,
+      "name": "QueryNotSupportedError",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 916,
+      "endline": 920,
+      "name": "RediSearchFieldTypes",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 974,
+      "endline": 984,
+      "classname": "FindQuery",
+      "name": "dict",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 987,
+      "endline": 990,
+      "classname": "FindQuery",
+      "name": "copy",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1714,
+      "endline": 1716,
+      "classname": "FindQuery",
+      "name": "resolve_redisearch_pagination",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1951,
+      "endline": 1953,
+      "classname": "FindQuery",
+      "name": "get_query",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1962,
+      "endline": 1965,
+      "classname": "FindQuery",
+      "name": "count",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 1973,
+      "endline": 1975,
+      "classname": "FindQuery",
+      "name": "page",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2123,
+      "endline": 2124,
+      "classname": "PrimaryKeyCreator",
+      "name": "create_pk",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2134,
+      "endline": 2135,
+      "classname": "UlidPrimaryKey",
+      "name": "create_pk",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2151,
+      "endline": 2168,
+      "classname": "FieldInfo",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2172,
+      "endline": 2179,
+      "classname": "RelationshipInfo",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2215,
+      "endline": 2228,
+      "classname": "VectorFieldOptions",
+      "name": "flat",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2232,
+      "endline": 2251,
+      "classname": "VectorFieldOptions",
+      "name": "hnsw",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2319,
+      "endline": 2321,
+      "name": "PrimaryKey",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2366,
+      "endline": 2367,
+      "name": "RedisOmConfig",
+      "complexity": 1,
+      "col_offset": 4,
+      "methods": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2371,
+      "endline": 2372,
+      "name": "RedisOmConfig",
+      "complexity": 1,
+      "col_offset": 4,
+      "methods": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2375,
+      "endline": 2384,
+      "name": "BaseMeta",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 2388,
+      "endline": 2403,
+      "name": "DefaultMeta",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2728,
+      "endline": 2730,
+      "classname": "RedisModel",
+      "name": "__lt__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2747,
+      "endline": 2748,
+      "classname": "RedisModel",
+      "name": "_delete",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2751,
+      "endline": 2755,
+      "classname": "RedisModel",
+      "name": "delete",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2758,
+      "endline": 2759,
+      "classname": "RedisModel",
+      "name": "get",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2761,
+      "endline": 2763,
+      "classname": "RedisModel",
+      "name": "update",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2765,
+      "endline": 2785,
+      "classname": "RedisModel",
+      "name": "save",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2787,
+      "endline": 2791,
+      "classname": "RedisModel",
+      "name": "expire",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2849,
+      "endline": 2852,
+      "classname": "RedisModel",
+      "name": "make_key",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2855,
+      "endline": 2857,
+      "classname": "RedisModel",
+      "name": "make_primary_key",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2860,
+      "endline": 2861,
+      "classname": "RedisModel",
+      "name": "db",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2864,
+      "endline": 2869,
+      "classname": "RedisModel",
+      "name": "find",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 2974,
+      "endline": 2975,
+      "classname": "RedisModel",
+      "name": "redisearch_schema",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3270,
+      "endline": 3274,
+      "classname": "HashModel",
+      "name": "redisearch_schema",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3489,
+      "endline": 3491,
+      "classname": "JsonModel",
+      "name": "__init_subclass__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 3597,
+      "endline": 3601,
+      "classname": "JsonModel",
+      "name": "redisearch_schema",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 3873,
+      "endline": 3884,
+      "name": "EmbeddedJsonModel",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    }
+  ],
+  "aredis_om\\model\\query_resolver.py": [
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 6,
+      "endline": 20,
+      "name": "LogicalOperatorForListOfExpressions",
+      "complexity": 3,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 9,
+          "endline": 10,
+          "classname": "LogicalOperatorForListOfExpressions",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 13,
+          "endline": 20,
+          "classname": "LogicalOperatorForListOfExpressions",
+          "name": "query",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 13,
+      "endline": 20,
+      "classname": "LogicalOperatorForListOfExpressions",
+      "name": "query",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 73,
+      "endline": 96,
+      "name": "Not",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 95,
+          "endline": 96,
+          "classname": "Not",
+          "name": "query",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 99,
+      "endline": 104,
+      "name": "QueryResolver",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 100,
+          "endline": 101,
+          "classname": "QueryResolver",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 103,
+          "endline": 104,
+          "classname": "QueryResolver",
+          "name": "resolve",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 9,
+      "endline": 10,
+      "classname": "LogicalOperatorForListOfExpressions",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 23,
+      "endline": 44,
+      "name": "Or",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 47,
+      "endline": 70,
+      "name": "And",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 95,
+      "endline": 96,
+      "classname": "Not",
+      "name": "query",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 100,
+      "endline": 101,
+      "classname": "QueryResolver",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 103,
+      "endline": 104,
+      "classname": "QueryResolver",
+      "name": "resolve",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\render_tree.py": [
+    {
+      "type": "function",
+      "rank": "C",
+      "lineno": 10,
+      "endline": 77,
+      "name": "render_tree",
+      "complexity": 14,
+      "col_offset": 0,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\token_escaper.py": [
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 5,
+      "endline": 25,
+      "name": "TokenEscaper",
+      "complexity": 3,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 14,
+          "endline": 18,
+          "classname": "TokenEscaper",
+          "name": "__init__",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 20,
+          "endline": 25,
+          "classname": "TokenEscaper",
+          "name": "escape",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": [
+            {
+              "type": "function",
+              "rank": "A",
+              "lineno": 21,
+              "endline": 23,
+              "name": "escape_symbol",
+              "complexity": 1,
+              "col_offset": 8,
+              "closures": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 14,
+      "endline": 18,
+      "classname": "TokenEscaper",
+      "name": "__init__",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 20,
+      "endline": 25,
+      "classname": "TokenEscaper",
+      "name": "escape",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "A",
+          "lineno": 21,
+          "endline": 23,
+          "name": "escape_symbol",
+          "complexity": 1,
+          "col_offset": 8,
+          "closures": []
+        }
+      ]
+    }
+  ],
+  "aredis_om\\model\\types.py": [
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 66,
+      "endline": 84,
+      "classname": "GeoFilter",
+      "name": "from_coordinates",
+      "complexity": 6,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 20,
+      "endline": 84,
+      "name": "GeoFilter",
+      "complexity": 5,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 46,
+          "endline": 60,
+          "classname": "GeoFilter",
+          "name": "__init__",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 62,
+          "endline": 63,
+          "classname": "GeoFilter",
+          "name": "__str__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 66,
+          "endline": 84,
+          "classname": "GeoFilter",
+          "name": "from_coordinates",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 46,
+      "endline": 60,
+      "classname": "GeoFilter",
+      "name": "__init__",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 94,
+      "endline": 123,
+      "name": "parse_redis",
+      "complexity": 3,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 62,
+      "endline": 63,
+      "classname": "GeoFilter",
+      "name": "__str__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\cli\\index.py": [
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 14,
+      "endline": 20,
+      "name": "run_async",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 24,
+      "endline": 30,
+      "name": "index",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 38,
+      "endline": 69,
+      "name": "create",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "B",
+          "lineno": 46,
+          "endline": 67,
+          "name": "_create",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 75,
+      "endline": 117,
+      "name": "drop",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "B",
+          "lineno": 83,
+          "endline": 115,
+          "name": "_drop",
+          "complexity": 9,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 123,
+      "endline": 174,
+      "name": "rebuild",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "C",
+          "lineno": 132,
+          "endline": 172,
+          "name": "_rebuild",
+          "complexity": 11,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    }
+  ],
+  "aredis_om\\model\\cli\\migrate.py": [
+    {
+      "type": "function",
+      "rank": "C",
+      "lineno": 101,
+      "endline": 140,
+      "name": "run",
+      "complexity": 14,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 185,
+      "endline": 220,
+      "name": "rollback",
+      "complexity": 10,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 63,
+      "endline": 84,
+      "name": "status",
+      "complexity": 6,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 150,
+      "endline": 168,
+      "name": "create",
+      "complexity": 6,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 284,
+      "endline": 336,
+      "name": "downgrade",
+      "complexity": 3,
+      "col_offset": 0,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "B",
+          "lineno": 306,
+          "endline": 334,
+          "name": "_downgrade",
+          "complexity": 7,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 228,
+      "endline": 266,
+      "name": "reset",
+      "complexity": 2,
+      "col_offset": 0,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "B",
+          "lineno": 240,
+          "endline": 263,
+          "name": "_reset",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 13,
+      "endline": 19,
+      "name": "run_async",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 22,
+      "endline": 51,
+      "name": "handle_redis_errors",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "B",
+          "lineno": 27,
+          "endline": 49,
+          "name": "wrapper",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 55,
+      "endline": 57,
+      "name": "migrate",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\cli\\migrate_data.py": [
+    {
+      "type": "function",
+      "rank": "C",
+      "lineno": 75,
+      "endline": 145,
+      "name": "status",
+      "complexity": 19,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "C",
+      "lineno": 174,
+      "endline": 241,
+      "name": "run",
+      "complexity": 16,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "C",
+      "lineno": 352,
+      "endline": 400,
+      "name": "verify",
+      "complexity": 11,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 292,
+      "endline": 340,
+      "name": "rollback",
+      "complexity": 9,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 411,
+      "endline": 457,
+      "name": "progress",
+      "complexity": 6,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "B",
+      "lineno": 468,
+      "endline": 499,
+      "name": "clear_progress",
+      "complexity": 6,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 254,
+      "endline": 275,
+      "name": "create",
+      "complexity": 5,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 510,
+      "endline": 566,
+      "name": "check_schema",
+      "complexity": 2,
+      "col_offset": 0,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "A",
+          "lineno": 525,
+          "endline": 564,
+          "name": "check_schema_async",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 19,
+      "endline": 25,
+      "name": "run_async",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 28,
+      "endline": 57,
+      "name": "handle_redis_errors",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": [
+        {
+          "type": "function",
+          "rank": "B",
+          "lineno": 33,
+          "endline": 55,
+          "name": "wrapper",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 61,
+      "endline": 63,
+      "name": "migrate_data",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\migrations\\data\\base.py": [
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 73,
+      "endline": 102,
+      "classname": "PerformanceMonitor",
+      "name": "get_stats",
+      "complexity": 7,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 53,
+      "endline": 63,
+      "classname": "PerformanceMonitor",
+      "name": "update_progress",
+      "complexity": 5,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 27,
+      "endline": 102,
+      "name": "PerformanceMonitor",
+      "complexity": 4,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 30,
+          "endline": 36,
+          "classname": "PerformanceMonitor",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 38,
+          "endline": 51,
+          "classname": "PerformanceMonitor",
+          "name": "start",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 53,
+          "endline": 63,
+          "classname": "PerformanceMonitor",
+          "name": "update_progress",
+          "complexity": 5,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 65,
+          "endline": 67,
+          "classname": "PerformanceMonitor",
+          "name": "record_batch_time",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 69,
+          "endline": 71,
+          "classname": "PerformanceMonitor",
+          "name": "finish",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 73,
+          "endline": 102,
+          "classname": "PerformanceMonitor",
+          "name": "get_stats",
+          "complexity": 7,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 38,
+      "endline": 51,
+      "classname": "PerformanceMonitor",
+      "name": "start",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 117,
+      "endline": 121,
+      "classname": "BaseMigration",
+      "name": "__init__",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 105,
+      "endline": 146,
+      "name": "BaseMigration",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 117,
+          "endline": 121,
+          "classname": "BaseMigration",
+          "name": "__init__",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 125,
+          "endline": 127,
+          "classname": "BaseMigration",
+          "name": "up",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 129,
+          "endline": 136,
+          "classname": "BaseMigration",
+          "name": "down",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 139,
+          "endline": 146,
+          "classname": "BaseMigration",
+          "name": "can_run",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 21,
+      "endline": 24,
+      "name": "DataMigrationError",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 30,
+      "endline": 36,
+      "classname": "PerformanceMonitor",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 65,
+      "endline": 67,
+      "classname": "PerformanceMonitor",
+      "name": "record_batch_time",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 69,
+      "endline": 71,
+      "classname": "PerformanceMonitor",
+      "name": "finish",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 125,
+      "endline": 127,
+      "classname": "BaseMigration",
+      "name": "up",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 129,
+      "endline": 136,
+      "classname": "BaseMigration",
+      "name": "down",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 139,
+      "endline": 146,
+      "classname": "BaseMigration",
+      "name": "can_run",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\migrations\\data\\migrator.py": [
+    {
+      "type": "method",
+      "rank": "D",
+      "lineno": 295,
+      "endline": 425,
+      "classname": "DataMigrator",
+      "name": "run_migrations_with_monitoring",
+      "complexity": 21,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 223,
+      "endline": 293,
+      "classname": "DataMigrator",
+      "name": "run_migrations",
+      "complexity": 16,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 140,
+      "endline": 185,
+      "classname": "DataMigrator",
+      "name": "_topological_sort",
+      "complexity": 12,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 427,
+      "endline": 477,
+      "classname": "DataMigrator",
+      "name": "rollback_migration",
+      "complexity": 12,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 64,
+      "endline": 91,
+      "classname": "DataMigrator",
+      "name": "_load_migrations_from_directory",
+      "complexity": 10,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 93,
+      "endline": 117,
+      "classname": "DataMigrator",
+      "name": "_load_migrations_from_module",
+      "complexity": 8,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 23,
+      "endline": 538,
+      "name": "DataMigrator",
+      "complexity": 7,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 33,
+          "endline": 44,
+          "classname": "DataMigrator",
+          "name": "__init__",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 46,
+          "endline": 62,
+          "classname": "DataMigrator",
+          "name": "discover_migrations",
+          "complexity": 5,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 64,
+          "endline": 91,
+          "classname": "DataMigrator",
+          "name": "_load_migrations_from_directory",
+          "complexity": 10,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 93,
+          "endline": 117,
+          "classname": "DataMigrator",
+          "name": "_load_migrations_from_module",
+          "complexity": 8,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 119,
+          "endline": 125,
+          "classname": "DataMigrator",
+          "name": "_load_builtin_migrations",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 127,
+          "endline": 130,
+          "classname": "DataMigrator",
+          "name": "get_applied_migrations",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 132,
+          "endline": 134,
+          "classname": "DataMigrator",
+          "name": "mark_migration_applied",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 136,
+          "endline": 138,
+          "classname": "DataMigrator",
+          "name": "mark_migration_unapplied",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 140,
+          "endline": 185,
+          "classname": "DataMigrator",
+          "name": "_topological_sort",
+          "complexity": 12,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 187,
+          "endline": 202,
+          "classname": "DataMigrator",
+          "name": "get_pending_migrations",
+          "complexity": 7,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 204,
+          "endline": 220,
+          "classname": "DataMigrator",
+          "name": "status",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 223,
+          "endline": 293,
+          "classname": "DataMigrator",
+          "name": "run_migrations",
+          "complexity": 16,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "D",
+          "lineno": 295,
+          "endline": 425,
+          "classname": "DataMigrator",
+          "name": "run_migrations_with_monitoring",
+          "complexity": 21,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 427,
+          "endline": 477,
+          "classname": "DataMigrator",
+          "name": "rollback_migration",
+          "complexity": 12,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 479,
+          "endline": 538,
+          "classname": "DataMigrator",
+          "name": "create_migration_file",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 187,
+      "endline": 202,
+      "classname": "DataMigrator",
+      "name": "get_pending_migrations",
+      "complexity": 7,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 46,
+      "endline": 62,
+      "classname": "DataMigrator",
+      "name": "discover_migrations",
+      "complexity": 5,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 127,
+      "endline": 130,
+      "classname": "DataMigrator",
+      "name": "get_applied_migrations",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 33,
+      "endline": 44,
+      "classname": "DataMigrator",
+      "name": "__init__",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 204,
+      "endline": 220,
+      "classname": "DataMigrator",
+      "name": "status",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 119,
+      "endline": 125,
+      "classname": "DataMigrator",
+      "name": "_load_builtin_migrations",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 132,
+      "endline": 134,
+      "classname": "DataMigrator",
+      "name": "mark_migration_applied",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 136,
+      "endline": 138,
+      "classname": "DataMigrator",
+      "name": "mark_migration_unapplied",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 479,
+      "endline": 538,
+      "classname": "DataMigrator",
+      "name": "create_migration_file",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\migrations\\data\\builtin\\datetime_migration.py": [
+    {
+      "type": "method",
+      "rank": "D",
+      "lineno": 503,
+      "endline": 614,
+      "classname": "MigrationState",
+      "name": "_process_hash_model",
+      "complexity": 21,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 616,
+      "endline": 712,
+      "classname": "MigrationState",
+      "name": "_process_json_model",
+      "complexity": 14,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 427,
+      "endline": 501,
+      "classname": "MigrationState",
+      "name": "up",
+      "complexity": 12,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 832,
+      "endline": 866,
+      "classname": "MigrationState",
+      "name": "_rollback_hash_model",
+      "complexity": 12,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 95,
+      "endline": 125,
+      "classname": "DatetimeFieldDetector",
+      "name": "_parse_index_schema",
+      "complexity": 9,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 778,
+      "endline": 830,
+      "classname": "MigrationState",
+      "name": "down",
+      "complexity": 9,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 35,
+      "endline": 92,
+      "classname": "DatetimeFieldDetector",
+      "name": "check_for_schema_mismatches",
+      "complexity": 8,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 372,
+      "endline": 943,
+      "name": "MigrationState",
+      "complexity": 7,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 375,
+          "endline": 378,
+          "classname": "MigrationState",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 380,
+          "endline": 399,
+          "classname": "MigrationState",
+          "name": "save_progress",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 402,
+          "endline": 416,
+          "classname": "MigrationState",
+          "name": "load_progress",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 419,
+          "endline": 421,
+          "classname": "MigrationState",
+          "name": "clear_progress",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 423,
+          "endline": 425,
+          "classname": "MigrationState",
+          "name": "has_saved_progress",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 427,
+          "endline": 501,
+          "classname": "MigrationState",
+          "name": "up",
+          "complexity": 12,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "D",
+          "lineno": 503,
+          "endline": 614,
+          "classname": "MigrationState",
+          "name": "_process_hash_model",
+          "complexity": 21,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 616,
+          "endline": 712,
+          "classname": "MigrationState",
+          "name": "_process_json_model",
+          "complexity": 14,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 714,
+          "endline": 740,
+          "classname": "MigrationState",
+          "name": "_convert_datetime_fields_in_dict",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 742,
+          "endline": 776,
+          "classname": "MigrationState",
+          "name": "_convert_datetime_value",
+          "complexity": 7,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 778,
+          "endline": 830,
+          "classname": "MigrationState",
+          "name": "down",
+          "complexity": 9,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 832,
+          "endline": 866,
+          "classname": "MigrationState",
+          "name": "_rollback_hash_model",
+          "complexity": 12,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 868,
+          "endline": 895,
+          "classname": "MigrationState",
+          "name": "_rollback_json_model",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 897,
+          "endline": 918,
+          "classname": "MigrationState",
+          "name": "_rollback_datetime_fields_in_dict",
+          "complexity": 7,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 920,
+          "endline": 935,
+          "classname": "MigrationState",
+          "name": "_convert_timestamp_to_iso",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 937,
+          "endline": 943,
+          "classname": "MigrationState",
+          "name": "can_run",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 742,
+      "endline": 776,
+      "classname": "MigrationState",
+      "name": "_convert_datetime_value",
+      "complexity": 7,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 897,
+      "endline": 918,
+      "classname": "MigrationState",
+      "name": "_rollback_datetime_fields_in_dict",
+      "complexity": 7,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 29,
+      "endline": 163,
+      "name": "DatetimeFieldDetector",
+      "complexity": 6,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 32,
+          "endline": 33,
+          "classname": "DatetimeFieldDetector",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 35,
+          "endline": 92,
+          "classname": "DatetimeFieldDetector",
+          "name": "check_for_schema_mismatches",
+          "complexity": 8,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 95,
+          "endline": 125,
+          "classname": "DatetimeFieldDetector",
+          "name": "_parse_index_schema",
+          "complexity": 9,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 127,
+          "endline": 152,
+          "classname": "DatetimeFieldDetector",
+          "name": "_get_datetime_fields",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 154,
+          "endline": 163,
+          "classname": "DatetimeFieldDetector",
+          "name": "_get_recommendation",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 127,
+      "endline": 152,
+      "classname": "DatetimeFieldDetector",
+      "name": "_get_datetime_fields",
+      "complexity": 6,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 714,
+      "endline": 740,
+      "classname": "MigrationState",
+      "name": "_convert_datetime_fields_in_dict",
+      "complexity": 6,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 868,
+      "endline": 895,
+      "classname": "MigrationState",
+      "name": "_rollback_json_model",
+      "complexity": 6,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 323,
+      "endline": 351,
+      "classname": "DatetimeFieldMigration",
+      "name": "_load_previous_progress",
+      "complexity": 5,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 299,
+      "endline": 303,
+      "classname": "DatetimeFieldMigration",
+      "name": "_log_progress",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 920,
+      "endline": 935,
+      "classname": "MigrationState",
+      "name": "_convert_timestamp_to_iso",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 154,
+      "endline": 163,
+      "classname": "DatetimeFieldDetector",
+      "name": "_get_recommendation",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 222,
+      "endline": 369,
+      "name": "DatetimeFieldMigration",
+      "complexity": 3,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 237,
+          "endline": 260,
+          "classname": "DatetimeFieldMigration",
+          "name": "__init__",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 262,
+          "endline": 281,
+          "classname": "DatetimeFieldMigration",
+          "name": "_safe_convert_datetime_value",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 283,
+          "endline": 286,
+          "classname": "DatetimeFieldMigration",
+          "name": "_convert_datetime_value",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 288,
+          "endline": 296,
+          "classname": "DatetimeFieldMigration",
+          "name": "_check_error_threshold",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 299,
+          "endline": 303,
+          "classname": "DatetimeFieldMigration",
+          "name": "_log_progress",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 305,
+          "endline": 321,
+          "classname": "DatetimeFieldMigration",
+          "name": "get_migration_stats",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 323,
+          "endline": 351,
+          "classname": "DatetimeFieldMigration",
+          "name": "_load_previous_progress",
+          "complexity": 5,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 353,
+          "endline": 363,
+          "classname": "DatetimeFieldMigration",
+          "name": "_save_progress_if_needed",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 366,
+          "endline": 369,
+          "classname": "DatetimeFieldMigration",
+          "name": "_clear_progress_on_completion",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 262,
+      "endline": 281,
+      "classname": "DatetimeFieldMigration",
+      "name": "_safe_convert_datetime_value",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 288,
+      "endline": 296,
+      "classname": "DatetimeFieldMigration",
+      "name": "_check_error_threshold",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 353,
+      "endline": 363,
+      "classname": "DatetimeFieldMigration",
+      "name": "_save_progress_if_needed",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 402,
+      "endline": 416,
+      "classname": "MigrationState",
+      "name": "load_progress",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 176,
+      "endline": 218,
+      "name": "MigrationStats",
+      "complexity": 2,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 179,
+          "endline": 186,
+          "classname": "MigrationStats",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 188,
+          "endline": 192,
+          "classname": "MigrationStats",
+          "name": "add_conversion_error",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 194,
+          "endline": 196,
+          "classname": "MigrationStats",
+          "name": "add_converted_field",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 198,
+          "endline": 200,
+          "classname": "MigrationStats",
+          "name": "add_skipped_field",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 202,
+          "endline": 204,
+          "classname": "MigrationStats",
+          "name": "add_processed_key",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 206,
+          "endline": 218,
+          "classname": "MigrationStats",
+          "name": "get_summary",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 237,
+      "endline": 260,
+      "classname": "DatetimeFieldMigration",
+      "name": "__init__",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 305,
+      "endline": 321,
+      "classname": "DatetimeFieldMigration",
+      "name": "get_migration_stats",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 366,
+      "endline": 369,
+      "classname": "DatetimeFieldMigration",
+      "name": "_clear_progress_on_completion",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 380,
+      "endline": 399,
+      "classname": "MigrationState",
+      "name": "save_progress",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 937,
+      "endline": 943,
+      "classname": "MigrationState",
+      "name": "can_run",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 23,
+      "endline": 26,
+      "name": "SchemaMismatchError",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 32,
+      "endline": 33,
+      "classname": "DatetimeFieldDetector",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 167,
+      "endline": 173,
+      "name": "ConversionFailureMode",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 179,
+      "endline": 186,
+      "classname": "MigrationStats",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 188,
+      "endline": 192,
+      "classname": "MigrationStats",
+      "name": "add_conversion_error",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 194,
+      "endline": 196,
+      "classname": "MigrationStats",
+      "name": "add_converted_field",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 198,
+      "endline": 200,
+      "classname": "MigrationStats",
+      "name": "add_skipped_field",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 202,
+      "endline": 204,
+      "classname": "MigrationStats",
+      "name": "add_processed_key",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 206,
+      "endline": 218,
+      "classname": "MigrationStats",
+      "name": "get_summary",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 283,
+      "endline": 286,
+      "classname": "DatetimeFieldMigration",
+      "name": "_convert_datetime_value",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 375,
+      "endline": 378,
+      "classname": "MigrationState",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 419,
+      "endline": 421,
+      "classname": "MigrationState",
+      "name": "clear_progress",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 423,
+      "endline": 425,
+      "classname": "MigrationState",
+      "name": "has_saved_progress",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\migrations\\schema\\base.py": [
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 19,
+      "endline": 42,
+      "name": "BaseSchemaMigration",
+      "complexity": 3,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 27,
+          "endline": 31,
+          "classname": "BaseSchemaMigration",
+          "name": "__init__",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 35,
+          "endline": 37,
+          "classname": "BaseSchemaMigration",
+          "name": "up",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 39,
+          "endline": 42,
+          "classname": "BaseSchemaMigration",
+          "name": "down",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 27,
+      "endline": 31,
+      "classname": "BaseSchemaMigration",
+      "name": "__init__",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 13,
+      "endline": 16,
+      "name": "SchemaMigrationError",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 35,
+      "endline": 37,
+      "classname": "BaseSchemaMigration",
+      "name": "up",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 39,
+      "endline": 42,
+      "classname": "BaseSchemaMigration",
+      "name": "down",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\migrations\\schema\\legacy_migrator.py": [
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 138,
+      "endline": 234,
+      "classname": "SchemaDetector",
+      "name": "detect_migrations",
+      "complexity": 13,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 122,
+      "endline": 247,
+      "name": "SchemaDetector",
+      "complexity": 6,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 133,
+          "endline": 136,
+          "classname": "SchemaDetector",
+          "name": "__init__",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 138,
+          "endline": 234,
+          "classname": "SchemaDetector",
+          "name": "detect_migrations",
+          "complexity": 13,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 238,
+          "endline": 247,
+          "classname": "SchemaDetector",
+          "name": "run",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 70,
+      "endline": 85,
+      "name": "create_index",
+      "complexity": 5,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 31,
+      "endline": 59,
+      "name": "import_submodules",
+      "complexity": 4,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 94,
+      "endline": 119,
+      "name": "IndexMigration",
+      "complexity": 3,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 103,
+          "endline": 107,
+          "classname": "IndexMigration",
+          "name": "run",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 109,
+          "endline": 113,
+          "classname": "IndexMigration",
+          "name": "create",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 115,
+          "endline": 119,
+          "classname": "IndexMigration",
+          "name": "drop",
+          "complexity": 2,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 103,
+      "endline": 107,
+      "classname": "IndexMigration",
+      "name": "run",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 109,
+      "endline": 113,
+      "classname": "IndexMigration",
+      "name": "create",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 115,
+      "endline": 119,
+      "classname": "IndexMigration",
+      "name": "drop",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 238,
+      "endline": 247,
+      "classname": "SchemaDetector",
+      "name": "run",
+      "complexity": 2,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 62,
+      "endline": 63,
+      "name": "schema_hash_key",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "function",
+      "rank": "A",
+      "lineno": 66,
+      "endline": 67,
+      "name": "schema_text_key",
+      "complexity": 1,
+      "col_offset": 0,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 25,
+      "endline": 28,
+      "name": "MigrationError",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "lineno": 88,
+      "endline": 90,
+      "name": "MigrationAction",
+      "complexity": 1,
+      "col_offset": 0,
+      "methods": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 133,
+      "endline": 136,
+      "classname": "SchemaDetector",
+      "name": "__init__",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    }
+  ],
+  "aredis_om\\model\\migrations\\schema\\migrator.py": [
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 166,
+      "endline": 223,
+      "classname": "SchemaMigrator",
+      "name": "downgrade",
+      "complexity": 15,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 45,
+      "endline": 70,
+      "classname": "SchemaMigrator",
+      "name": "discover_migrations",
+      "complexity": 12,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 103,
+      "endline": 131,
+      "classname": "SchemaMigrator",
+      "name": "run",
+      "complexity": 12,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "C",
+      "lineno": 133,
+      "endline": 164,
+      "classname": "SchemaMigrator",
+      "name": "rollback",
+      "complexity": 11,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 225,
+      "endline": 342,
+      "classname": "SchemaMigrator",
+      "name": "create_migration_file",
+      "complexity": 10,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "B",
+      "lineno": 26,
+      "endline": 342,
+      "name": "SchemaMigrator",
+      "complexity": 8,
+      "col_offset": 0,
+      "methods": [
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 33,
+          "endline": 43,
+          "classname": "SchemaMigrator",
+          "name": "__init__",
+          "complexity": 3,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 45,
+          "endline": 70,
+          "classname": "SchemaMigrator",
+          "name": "discover_migrations",
+          "complexity": 12,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 72,
+          "endline": 74,
+          "classname": "SchemaMigrator",
+          "name": "get_applied",
+          "complexity": 4,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 76,
+          "endline": 77,
+          "classname": "SchemaMigrator",
+          "name": "mark_applied",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "A",
+          "lineno": 79,
+          "endline": 80,
+          "classname": "SchemaMigrator",
+          "name": "mark_unapplied",
+          "complexity": 1,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 82,
+          "endline": 100,
+          "classname": "SchemaMigrator",
+          "name": "status",
+          "complexity": 6,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 103,
+          "endline": 131,
+          "classname": "SchemaMigrator",
+          "name": "run",
+          "complexity": 12,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 133,
+          "endline": 164,
+          "classname": "SchemaMigrator",
+          "name": "rollback",
+          "complexity": 11,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "C",
+          "lineno": 166,
+          "endline": 223,
+          "classname": "SchemaMigrator",
+          "name": "downgrade",
+          "complexity": 15,
+          "col_offset": 4,
+          "closures": []
+        },
+        {
+          "type": "method",
+          "rank": "B",
+          "lineno": 225,
+          "endline": 342,
+          "classname": "SchemaMigrator",
+          "name": "create_migration_file",
+          "complexity": 10,
+          "col_offset": 4,
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "rank": "B",
+      "lineno": 82,
+      "endline": 100,
+      "classname": "SchemaMigrator",
+      "name": "status",
+      "complexity": 6,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 72,
+      "endline": 74,
+      "classname": "SchemaMigrator",
+      "name": "get_applied",
+      "complexity": 4,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 33,
+      "endline": 43,
+      "classname": "SchemaMigrator",
+      "name": "__init__",
+      "complexity": 3,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 76,
+      "endline": 77,
+      "classname": "SchemaMigrator",
+      "name": "mark_applied",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    },
+    {
+      "type": "method",
+      "rank": "A",
+      "lineno": 79,
+      "endline": 80,
+      "classname": "SchemaMigrator",
+      "name": "mark_unapplied",
+      "complexity": 1,
+      "col_offset": 4,
+      "closures": []
+    }
+  ]
+}
